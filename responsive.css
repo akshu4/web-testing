@@ -1,0 +1,60 @@
+@media screen and (max-width: 1000px)    
+{
+.taskbar{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    background-color: black;
+    height: 10.5vh;
+    position: absolute;
+    bottom: 0px;
+    width: 100vw;
+    overflow: hidden;
+}
+.start img, .search img, .recent img,.explorer img,.chromes img{ 
+        max-width: 11vw;
+        max-height: 6.5vh;
+        min-width: 11vw;
+        min-height: 6.5vh;
+        overflow: hidden;
+    }
+.start,.search,.recent,.explorer,.chromes{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        height: 10.5vh;
+        position: absolute;
+        bottom: 0vh;
+        width: 14vw;
+        overflow: hidden;
+}
+.start{
+    left: 11vw;
+}
+.search{
+    left: 27vw;
+}
+.recent{
+    left: 43vw;
+}
+.explorer{
+    left: 59vw;
+}
+.chromes{
+    left: 75vw;
+}
+.startpg img,.searchpg img,.recentpg img,.explorerpg img,.chromepg img{
+    position: relative;
+    height: 54vh;
+    width: 95vw;
+    border-radius: 2vh;
+    bottom: 5vh;
+}
+/* .searchpg img {
+    position: relative;
+    height: 54vh;
+    width: 95vw;
+    border-radius: 2vh;
+    bottom: 5vh; */
+}

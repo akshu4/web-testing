@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.desktop{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    }
+.desktop img{
+    height: 100vh;
+    width: 100vw;
+        }
+ .taskbar{
+    background-color: black;
+    height: 6.5vh;
+    position: absolute;
+    bottom: 0px;
+    width: 100vw;
+    overflow: hidden;
+}
+.start,.search,.recent,.explorer,.chromes{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        height: 6.5vh;
+        position: absolute;
+        bottom: 0vh;
+        width: 2vw;
+        overflow: hidden;
+}
+  .start img, .search img, .recent img,.explorer img,.chromes img{ 
+    max-width: 4vw;
+    max-height: 4vh;
+    min-width: 2vw;
+    min-height: 2vh;
+    overflow: hidden;
+  }
+.start{
+    left: 40vw;
+}
+.search{
+    left: 44vw;
+}
+.recent{
+    left: 48vw;
+}
+.explorer{
+    left: 52vw;
+}
+.chromes{
+    left: 56vw;
+}
+  .startpg,.searchpg,.recentpg,.explorerpg,.chromepg{
+      position: absolute;
+      bottom: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100vw;
+  }
+.startpg img{
+    position: relative;
+    height: 86vh;
+    width: auto;
+    border-radius: 2vh;
+}
+.searchpg img{
+  position: relative;
+  height: 86vh;
+  width: auto;
+  border-radius: 2vh;
+}
+.recentpg img{
+  position: relative;
+  height: 90vh;
+  width: auto;
+  border-radius: 2vh;
+}
+.explorerpg img{
+  position: relative;
+  height: 90vh;
+  width: auto;
+  border-radius: 2vh;
+}
+.chromepg img{
+  position: relative;
+  height: 90vh;
+  width: auto;
+  border-radius: 2vh;
+}
